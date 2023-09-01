@@ -1,4 +1,3 @@
-Primer Ejercicio 
 """
 Ejemplo sumatoria 
 """
@@ -13,7 +12,6 @@ def sol_suma():
 
 print(f_suma(), sol_suma())  
 
-Segundo ejercicio 
 
 """
 Ejemplo sumatoria 2

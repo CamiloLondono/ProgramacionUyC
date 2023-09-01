@@ -13,7 +13,6 @@ while i <= limite:
     #print (operacion)
 print (calculo)
 #print (calculo)
------------
 i = 1
 a = 1
 b = 100
