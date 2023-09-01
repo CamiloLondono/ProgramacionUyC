@@ -1,0 +1,24 @@
+Mi primer sitio web 
+'<>' lo que va dentro de los signos de mayor que y menor que son etiquetas
+hola <strong> querida </strong> clase 
+el mayor que con exclamacion al inicio y menor que al final se usa para un comentario <!>
+el comando strong sirve para poner en negrilla una letra
+---MAQUETACION----
+comentarios en el codigo
+---EVENTOS---
+addEventListener("")
+blur = Cuando el elemento pierde el foco.
+click = El usuario hace clic sobre el elemento.
+dblclick = El usuario hace doble clic sobre el elemento.
+focus = El elemento gana el foco.
+keydown = El usuario presiona una tecla.
+keypress = El usuario presiona una tecla y la mantiene pulsada.
+keyup = El usuario libera la tecla.
+load = El documento termina su carga.
+mousedown = El usuario presiona el botón del ratón en un elemento.
+mousemove = El usuario mueve el puntero del ratón sobre un elemento.
+mouseout = El usuario mueve el puntero fuera de un elemento.
+mouseover = El usuario mantiene el puntero sobre un elemento.
+mouseup = El usuario libera el botón pulsado del ratón sobre un elemento.
+---MANUPULACION DEL DOM---
+con el comando 'innerHTML' podemos manipular un campo de texto en nuestro codigo HTML que esta dentro de los parametros <span>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MOKEPON!</title>
+        <script defer src="./js/acciones.js"></script> <!--con el comando 'defer' le estamos diciendo al codigo html que primero lea todo el codigo y por ultimo si lea el script para evitar errores-->
+    </head>
+    <body>
+        <h1>MOKEPON! 🔥💧🌱</h1> <!--los 'h1' son titulos y van aumentando de numeros-->
+
+        <section id="seleccionar-mascota">
+            <h2>Elige tu mascota</h2>
+
+            <input type="radio" name="mascota" id="PhoenixFlare"> 
+            <label for="PhoenixFlare">PhoenixFlare</label> <br>
+            
+            <input type="radio" name="mascota" id="HipoGear"> 
+            <label for="HipoGear">HipoGear</label> <br>
+            
+            <input type="radio" name="mascota" id="TorMetal"> 
+            <label for="TorMetal">TorMetal</label> <br>
+
+            <input type="radio" name="mascota" id="Gojira"> 
+            <label for="Gojira">Gojira</label> <br>
+
+            <input type="radio" name="mascota" id="HanzSalaman"> 
+            <label for="HanzSalaman">HanzSalaman</label> <br>
+
+            <input type="radio" name="mascota" id="Pain"> 
+            <label for="Pain">Pain</label> <br>
+
+            <button id="boton-mascota">Seleccionar</button>
+            <!-- el comando <br> es un salto de linea
+            ----Mascotas con sus elementos
+            PhoenixFlare -> Fuego
+            HipoGear -> Agua
+            TorMetal -> Tierra
+            Gojira -> Fuego y Tierra
+            HanzSalaman -> Agua y Fuego
+            Pain -> Tierra y Agua-->
+        </section> <!--el 'section' sirve para dividir el codigo por secciones como lo indica el tag-->
+
+        <section id="seleccionar-ataque"></section>
+            <h2>Elige tu ataque</h2>
+            <p>Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas</p> <!--el 'span' me deja interactuar con un valor que este dentro de un string-->
+            <p>La mascota <span id="mascota-enemigo"></span> del enemigo tienen <span>3</span> vidas</p>
+            <p>
+                <button id="boton-Fuego"> Fuego 🔥</button>
+                <button id="boton-Agua"> Agua 💧</button>
+                <button id="boton-Tierra"> Tierra 🌱</button>
+            </p>
+        <section id="mensajes">
+
+            <p>Tu mascota atacon con FUEGO, las mascotas del enemigo ataco con TIERRA - GANASTE🎉</p>     
+        </section>
+
+        <section id="Reiniciar">
+            <button id="boton-Reiniciar"> Reiniciar</button>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+para moverme entre carpteas en el terminal de windows es igual que el terminal de linux, o practicamente igual con comandos cambiados
+'cd' sirve para moverme entre carpteas
+'cls' limpia la terminal 

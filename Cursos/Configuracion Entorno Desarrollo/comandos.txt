@@ -1,0 +1,59 @@
+pwd --- es un comando que nos dice donde estamos trabajando actualmente
+
+cd --- sirve para cambiar de directorios, moverme entre carpetas o las partes de un computador
+
+cd .. --- me sirve para volver al directorio padre
+
+cd / --- despues del slash indicando en que lugar quiero trabajar me muevo entre ubicaciones diferentes. 
+
+mkdir --- sirve para crear carpetas 
+
+sudo mkdir --- el sudo me sirve para crearlas con permisos del administrador siempre
+
+touch --- crear archivos vacios, que no tienen nada por dentro
+
+ls --- muestra todos los archivos que tienen la ubicacion en la que estamos ubicados
+
+clear --- me limpia la consola
+
+cat --- nos muestra el contenido que tiene un archivo
+
+history --- para ver el historial de nuestros comandos, si queremos repetir un comando ponemos el numero del comando ponemos !#
+
+rem --- es remover, para borrar archivos, tambien se suele usar el "rm" o "-rf" para borrar archivos
+
+--help --- se usa al final de un comando para saber como sirve
+
+mv --- sirve para mover archivos de una ubicacion a otra
+
+code . --- sirve para ejecutar visual studio code y abra el archivo creado en dicha ubicacion
+
+wsl --shutdown --- me sirve para ordenarle a la maquina virtual que se apague, como apagando el ordenador para que no consuma
+		    recursos
+
+con el windowns+R ejecuto un buscador mas especifico en mi pc y para encontrar los archivos creados en mi maquina virtual 
+linux busco la carpeta home/camilo/ y ahi quedo en los archivos que creo por medio de la consola de comandos
+
+sudo apt-get update --- sirve para preguntar si hay actualizaciones disponibles
+
+sudo apt-get upgrade --- sirve para actualizar los datos del ubuntu
+
+sudo apt install --- sirve para decirle que programa instalar directamente al ubuntu 
+
+nodejs, es un ambiente de programacion para lenguaje de programacion javascript 
+
+npx --- sirve para ejecutar paquetes directamente desde el ordenador sin necesidad de instalar
+
+para decirle a visualCode que tengo permisos sobre una carpeta uso "sudo chown -R ~/nombre de la carpeta" esa seria la manera correcta de hacerlo
+
+si quiero borrar un solo archivo escribo "rm +nombre del archivo a borrar", pero si deseo borrar una carpeta vacia uso el "rm -d +carpteda a borrar" pero si quiero borrar una carpeta con contenido uso "rm -rf +mas el nombre de la carpeta a borrar" 
+
+ssh-keygen -t rsa -b 4096 -C --- sirve para poder subir codigos a nuestro repositorio de github, el guien -t es para indicarle que tipo de llave cera y el guion -b sirve para indicarle el numero de bits y el -C es para poner el correo con el que tenemos el correo creado el github
+
+mi directorio de github desde ubunto es /home/camilo/.ssh 
+
+eval "$(ssh-agen -s)" sirve para evaluar mi agente corriendo para saber que todo sirve correctamente
+
+
+
+
