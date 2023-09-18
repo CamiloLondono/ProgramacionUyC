@@ -24,7 +24,7 @@ class TodosGanadoresBaloto():
         self.__todosBaloto = StringVar()
     #label
         tk.Label(self.ventana, text='El resultado de todos los balotos es').grid(row=0, column=0,columns=3)
-        tk.Label(self.ventana, textvariable=self.__todosBaloto, command=s).grid(row=1, column=0, columns=3)
+        tk.Label(self.ventana, textvariable=self.__todosBaloto, command=self.imprimirTodosBaloto).grid(row=1, column=0, columns=3)
     #botones
         botonSalir = tk.Button(self.ventana, text='Salir', command=self.ventana.destroy).grid(row=2, column=1)
     
