@@ -1,25 +1,23 @@
-from random import sample
-#importamos un metodo de la biblioteca random para generar listas aleatorias
+def bubblesort(notas, estudiantes):
+    print("El vector a ordenar es:", notas)
+    n = len(notas)
+    for i in range(n - 1):
+        # Le damos un rango n-1 para que complete el proceso
+        for j in range(0, n - i - 1):
+            # Revisa la matriz de 0 hasta n-i-1
+            if notas[j] > notas[j + 1]:
+                notas[j], notas[j + 1] = notas[j + 1], notas[j]
+                estudiantes[j], estudiantes[j + 1] = estudiantes[j + 1], estudiantes[j]
+    print("Los estudiantes con las notas ordenadas son:")
+    for i in range(n):
+        print(estudiantes[i], ":", notas[i])
 
-lista = list(range(100)) #numero del 1 al 100
+estudiantes = []
+notas = []
+for i in range(5):
+    estudiante = input("Ingrese el nombre del estudiante: ")
+    estudiantes.append(estudiante)
+    nota = float(input("Ingrese la nota: "))
+    notas.append(nota)
 
-#creamos una lista aleatoria con sample
-#(8 elementos aleatorios de la lista base)
-vectorbs = sample(lista,8)
-
-def bubblesort(vectorbs):
-    print('El vector a ordenar es:',vectorbs)
-    #establecer un contador
-    n = 0
-    
-    for _ in vectorbs:
-        n += 1 #contamos la cantidad de caracteres dentro del vector
-    
-    for i in range(n-1):
-        #le damos un rango n para que complete el proceso
-        for j in range(0,n-i-1):
-            #revisa la matriz de 0 hasta n-i-1
-            if vectorbs[j] > vectorbs[j+1]:
-                vectorbs[j], vectorbs[j+1] = vectorbs[j+1], vectorbs[j]
-    print ('El vector ordenado es:',vectorbs)
-bubblesort(vectorbs)
+bubblesort(notas, estudiantes)
