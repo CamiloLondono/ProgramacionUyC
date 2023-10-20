@@ -20,4 +20,3 @@ class Producto ():
         self.__categoria = categoria
     def setPrecio(self,precio):
         self.__precio = precio
-    

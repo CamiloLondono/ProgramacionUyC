@@ -9,6 +9,7 @@ class Main():
             precioNeto = float(input('por favor ingrese el precio neto del producto: '))
             precioTotal = int(input('por favor ingrese el precio total del producto: '))
             iva = int(input('por favor ingrese el IVA del producto: '))
+            print ('Se guardo de manera exitosa el producto')
             producto = Producto(nombre,categoria,precioNeto,precioTotal,iva)
             Productos.append(producto)
         producto.calcularAcumuladoGranos(Productos)
